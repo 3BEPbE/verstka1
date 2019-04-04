@@ -123,7 +123,38 @@ body {
 // Article Login form
 
 .form-login {
+    box-sizing: border-box;
     background: url('../img/login-form-bg.png') no-repeat;
     height: 308px;
     width: 24%;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+}
+.form-login__item {
+    border: 1px solid red;
+    height: 25px;
+    margin-top: 14px;
+}
+.form-login_theme {
+    color: #e8eae5;
+    text-decoration: none;
+    border: 1px solid red;
+    margin-top: 14px;
+}
+.form-login__button {
+    width: 185px;
+    height: 35px;
+    background: #de4234;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: "Gill Sans";
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.26);
+}
+.form-login_button_first {
+    width: 85px;
+    height: 35px;
 }
