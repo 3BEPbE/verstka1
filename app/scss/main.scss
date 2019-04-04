@@ -1,0 +1,129 @@
+*, body, head {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #e8eae5;
+}
+.header {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 20px;
+}
+.login__item {
+    color: #595959;
+    text-decoration: none;
+    margin-right: 10px; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    &:hover {
+        color: #c42d21;
+        text-decoration: none;
+        font-weight: 550;
+    }
+}
+.login_item_active {
+    color: #c42d21;
+}
+
+// navigation - menu
+
+.nav-wrapper {
+    background: #ad2c20;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    align-items: center;
+}
+.nav__menu {
+
+}
+.nav__item {
+    &:first-child {
+        margin-left: 15px;
+    }
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-family: "Helvetica";
+    color: rgb(236, 236, 236);
+    line-height: 1.375;
+    text-decoration: none;
+    margin-left: 35px;
+    &:hover {
+        background: #3d3d3d;
+    }
+}
+
+.contacts {
+    background: #3d3d3d url("../img/phone-bg.png") repeat-x;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.contact__phone {
+    font-size: 18px;
+    line-height: 22px;
+    color: #ececec;
+}
+
+// Article main block
+  
+.article-wrapper {
+    width: 75%;
+    margin-top: 13px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.slider {
+    width: 75%;
+    min-height: 309px;
+    background: #c42d21 url('../img/shadow.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider__gold {
+    width: 90%;
+}
+// .form-login {
+//     min-width: 21%;
+// }
+// .slider_text_theme_first {
+//     font-size: 38px;
+//     font-family: "Bebas Neue";
+//     color: rgb(246, 238, 121);
+//     text-transform: uppercase;
+// }
+// .slider_text_theme_second {
+//     font-size: 55px;
+//     font-family: "Bebas Neue";
+//     color: rgb(246, 238, 121);
+//     text-transform: uppercase;
+//     text-shadow: 0px 2px 0px rgba(36, 28, 6, 0.4);
+// }
+// .slider_text_theme_third {
+//     font-size: 23px;
+//     font-family: "Bebas Neue";
+//     color: rgb(235, 232, 232);
+//     text-transform: uppercase;
+// }
+
+
+// Article Login form
+
+.form-login {
+    background: url('../img/login-form-bg.png') no-repeat;
+    height: 308px;
+    width: 24%;
+}
